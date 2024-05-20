@@ -1,0 +1,250 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(210, 210, 210);
+    display: flex;
+    justify-content: space-between;
+}
+
+header > img{
+    height: 120px;
+    width: 120px;
+}
+
+header nav > a{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+header > nav{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    align-items: center;
+}
+
+header nav > a:link{
+    text-decoration: none;
+}
+
+header nav > a:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+header nav > a:active{
+    color: rgb(255, 255, 255);
+    background-color: #4CAF50;
+    scale: 0.8;
+}
+
+.main > aside{
+    background-color: rgb(120, 120, 120);
+    width: 100%;
+    flex: 0.5;
+}
+
+.main > article{
+    flex: 1;
+    width: 100%;
+    background-color: #4CAF50;
+}
+
+.main > section{
+    background-color: rgb(160, 160, 160);
+    width: 100%;
+    flex: 2;
+}
+
+.main{
+    background-color: rgb(240, 240, 240);
+    height: 500px;
+    width: 1200px;
+    margin-left: 50px;
+}
+
+.main1{
+    background-color: rgb(240, 240, 240);
+    height: 457px;
+    width: 1200px;
+}
+
+.main2{
+    background-color: rgb(240, 240, 240);
+    height: 600px;
+    width: 1200px;
+    margin-left: 55px;
+}
+
+.box{
+    background-color: rgb(88, 61, 61);
+    margin-top: 40px;
+    height: 500px;
+    display: grid;
+    grid-template-areas: "b1 b2"
+                        "b1 b2"
+                        "b1 b2";
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    width: auto;
+    gap: 5px;
+}
+
+.box1{
+    background-color: green;
+    grid-area: b1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box2{
+    background-color: #4CAF50;
+    grid-area: b2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+
+section{
+    padding-top: 10px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+}
+
+article, h1{
+    align-items: center;
+}
+
+article h2{
+    display: flex;
+    justify-content: center;
+
+}
+article form {
+    margin-right: 150px;
+    margin-left: 150px;
+    gap: 10px;
+}
+
+article form input{
+    border: 1px solid rgb(24, 24, 24);
+}
+
+article form input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0;
+    display: inline-block;
+    
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+article form input[type=number]{
+    width: 70px;
+    padding: 12px 20px;
+    margin: 0;
+    display: inline-block;
+    
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+article form input[type=select]{
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 100px;
+    display: inline-block;
+    
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+article form input[type=submit]{
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    margin: 0;
+    display: inline-block;
+    
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.nome{
+    margin-top: 10px;
+}
+
+.endereco{
+    margin-top: 10px;
+}
+
+.idade{
+    margin-top: 10px;
+}
+
+.password{
+    margin-top: 10px;
+}
+
+.city{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.cargahoraria{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.forme{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.informe{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.enviar{
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 35px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    width: 150px;
+  }
+
+table, td, th{
+    background-color: rgb(87, 87, 87);
+}
+
+table, td{
+    background-color: rgb(172, 172, 172);
+}
+
+footer{
+    background-color: rgb(30, 30, 30);
+    height: 50px;
+    color: white;
+    text-align: center;
+}
