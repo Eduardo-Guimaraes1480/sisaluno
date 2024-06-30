@@ -1,0 +1,19 @@
+{
+    "folders": [
+		{
+			"path": "../sistema-alunos"
+		},
+		{
+			"path": "../sistema-escola09-04"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../template-grid"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "sistema-escola09-04"
+    }
+}
